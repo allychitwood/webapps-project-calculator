@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="calcStyle.css"/>
+	</head>
+	
+	<body>
+		<div class = "wrapper">
+			<div class = "fullCalc">
+				<div class = "textView">
+					<p id="lastAnswer">
+						<br/>
+					</p>
+					<p id="inputHistory">
+						<br/>
+					</p>
+					<p id="output">0</p>
+				</div>
+				<table class="buttons">
+					<tr>
+						<td><button name="memoryOperations">MC</button></td>
+						<td><button name="clearOperations">CE</button></td>
+						<td><button name="clearOperations">C</button></td>
+						<td><button name="clearOperations">DEL</button></td>
+						<td><button name="lastAnswer">Ans</button></td>
+					</tr>
+					<tr>
+						<td><button name="memoryOperations">MR</button></td>
+						<td><button name="memoryOperations">MS</button></td>
+						<td><button name="memoryOperations">M+</button></td>
+						<td><button name="memoryOperations">M-</button></td>
+						<td><button name="miscFunctions">+ / -</button></td>
+					</tr>
+					<tr>
+						<td><button name="miscFunctions">X^2</button></td>
+						<td><button name="trigFunctions">sin(X)</button></td>
+						<td><button name="trigFunctions">cos(X)</button></td>
+						<td><button name="trigFunctions">tan(X)</button></td>
+						<td><button name="miscFunctions" id="radButton">DEG</button></td>
+					</tr>
+					<tr>
+						<td><button name="operators">^</buttons></td>
+						<td><button name="inputButtons">1</button></td>
+						<td><button name="inputButtons">2</button></td>
+						<td><button name="inputButtons">3</button></td>
+						<td><button name="operators">+</button></td>
+					</tr>
+					<tr>
+						<td><button name="miscFunctions">sqrt(X)</button></td>
+						<td><button name="inputButtons">4</button></td>
+						<td><button name="inputButtons">5</button></td>
+						<td><button name="inputButtons">6</button></td>
+						<td><button name="operators">-</button></td>
+					</tr>
+					<tr>
+						<td><button name="miscFunctions">ln(X)</button></td>
+						<td><button name="inputButtons">7</button></td>
+						<td><button name="inputButtons">8</button></td>
+						<td><button name="inputButtons">9</button></td>
+						<td><button name="operators">*</button></td>
+					<tr>
+						<td><button name="equals">=</button></td>
+						<td><button name="inputButtons">PI</buttons></td>
+						<td><button name="inputButtons">0</button></td>
+						<td><button name="inputButtons">.</button></td>
+						<td><button name="operators">/</button></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<script src="calcFunctionality.js"></script>
+	</body>
+</html>

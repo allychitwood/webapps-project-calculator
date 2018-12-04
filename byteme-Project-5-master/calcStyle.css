@@ -1,0 +1,57 @@
+.textView {
+	border-bottom: 2.5px solid black;
+	padding: 3px 3px;
+	background-color: #a9a9a9;
+}
+
+.fullCalc {
+	margin-top: 50px;
+	border: 5px solid black;
+	border-radius: 7px;
+	display: inline-block;
+}
+
+.buttons button {
+	/*background-color: white;*/
+	border-radius: 7px;
+	width: 75px;
+	height: 50px;
+	transition: all 0.5s;
+	font-family: monospace;
+}
+
+.buttons button:hover {
+	border: 2px solid black;
+}
+
+button[name=equals] {
+	background-color: #008cba; /* Blue */
+	color: white;
+}
+
+button[name=inputButtons] {
+	background-color: #dcdcdc; /* Gray */
+}
+
+button[id=radButton] {
+	background-color: #ff5733; /* Red */
+}
+
+
+.wrapper {
+	text-align: center;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+#output {
+	text-align: right;
+}
+
+#inputHistory {
+	text-align: right;
+}
+
+#lastAnswer {
+	text-align: left;
+}
